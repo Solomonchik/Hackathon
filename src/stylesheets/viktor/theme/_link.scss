@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  a {
+    text-align: right;
+    padding-right: 30px;
+    color: white;
+    font-size: 36px;
+    &:hover {
+      color: lightblue;
+    }
+  }
+}
+.uzb a {
+  position: absolute;
+  padding: 10px;
+}
+.economy a {
+  position: absolute;
+  padding: 10px;
+}
+.culture a {
+  padding: 10px;
+  position: absolute;
+}

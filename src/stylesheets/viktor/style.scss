@@ -1,0 +1,29 @@
+@import "vars";
+@import "theme/index";
+@import "theme/placeholder";
+@import "theme/link";
+@import "theme/h1";
+@import "theme/footer";
+@import "theme/header";
+@import "theme/buttons";
+@import "theme/content";
+@import "theme/main";
+@import "theme/body";
+@import "theme/nav";
+
+.links {
+  position: absolute;
+  top: 120px;
+}
+h1 {
+  top: 100px;
+  font-size: 56px;
+  @extend %absolute;
+  @extend %center;
+  width: 100%;
+  color: $white;
+}
+img {
+  min-width: 100px;
+  min-height: 60px;
+}

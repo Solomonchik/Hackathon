@@ -1,0 +1,33 @@
+.content {
+  position: relative;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  box-shadow: 3px 3px 10px black;
+  padding: 10px;
+  width: 1240px;
+  margin: 20px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.box1 {
+  max-width: 400px;
+}
+.box2 {
+  max-width: 780px;
+  padding: 0;
+  padding-right: 10px;
+}
+.uzb {
+  box-shadow: 10px 10px 20px black;
+}
+.economy {
+  box-shadow: 10px 10px 20px black;
+}
+.culture {
+  box-shadow: 10px 10px 20px black;
+}
