@@ -49,3 +49,69 @@ body {
 .contact {
     padding-left: 25px;
 }
+
+/*======================================================*/
+.slider {
+    position: absolute;
+    top: 500px;
+    display: block;
+    overflow: hidden;
+    overflow-x: hidden;
+    max-width: 1010px;
+    height: 300px;
+    left: 0%;
+}
+slider > * {
+    top: 20%;
+    position: absolute;
+    display: block;
+    height: 300px;
+    width: 1010px;
+    animation: slide 12s infinite;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+slide:nth-child(1) {
+    left: 455px;
+    animation-delay: -1s;
+    background-image: url("../image/syria.jpg");
+    background-size: cover;
+    background-position: center;
+}
+slide:nth-child(2) {
+    left: 455px;
+    animation-delay: 2s;
+    background-image: url("../image/tuerkei.jpg");
+    background-size: cover;
+    background-position: center;
+}
+slide:nth-child(3) {
+    left: 455px;
+    animation-delay: 5s;
+    background-image: url("../image/yemen.jpg");
+    background-size: cover;
+    background-position: center;
+}
+slide:nth-child(4) {
+    left: 455px;
+    animation-delay: 8s;
+    background-image: url("../image/sudan.jpg");
+    background-size: cover;
+    background-position: center;
+}
+slide p {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    width: 1010px;
+    margin-top: 150px;
+    color: white;
+}
+@keyframes slide {
+    0% {left: 1010px; width: 1010px;}
+    5% {left: 455px;}
+    25% {left: 455px;}
+    30% {left: -455px; width: 1010px;}
+    30.0001% {left: -455px; width: 1010px;}
+    100% {left: 1010px; width: 0;}
+}
