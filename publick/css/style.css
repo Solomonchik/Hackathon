@@ -34,7 +34,7 @@ body {
     height: 150px;
     display: flex;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     background-color: rgba(0, 0, 0, .3);
     flex-flow: row wrap;
 }
@@ -44,7 +44,7 @@ body {
 }
 .container {
     max-width: 1010px;
-    margin-left: 500px;
+    margin-left: 455px;
 }
 .contact {
     padding-left: 25px;
